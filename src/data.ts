@@ -22,21 +22,21 @@ export const PROJECTS: Project[] = [
     title: 'AI 测试用例生成器',
     description: '基于 AI 的测试用例自动生成工具，支持需求分析、边界场景补全、人工审核和导出功能。显著提升了测试设计的效率和覆盖率。',
     tags: ['JavaScript', 'Gemini API', 'Web Components'],
-    link: 'https://github.com/xiaoxi/ai-tester'
+    link: 'https://github.com/Camellia0422'
   },
   {
     id: 'tech-blog',
     title: '技术博客平台',
     description: '一个自建的高性能、支持 Markdown 的技术博客平台。采用响应式设计，适配多端阅读体验，并集成了 SEO 优化。',
     tags: ['React', 'TypeScript', 'Tailwind'],
-    link: '#'
+    link: 'https://github.com/Camellia0422'
   },
   {
     id: 'auto-test-lib',
     title: '自动化测试脚本库',
     description: '一系列用于 Web UI 自动化测试的复用脚本库，集成了常用的断言工具和报告生成插件，支持 CI/CD 集成。',
     tags: ['Playwright', 'Jest', 'CI/CD'],
-    link: '#'
+    link: 'https://github.com/Camellia0422'
   }
 ];
 

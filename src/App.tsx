@@ -167,7 +167,8 @@ export default function App() {
               </h1>
               
               <p className="text-lg md:text-xl text-zinc-500 font-medium max-w-2xl mx-auto mb-12">
-                专注于 AI 赋能的自动化测试新生态。以二次元的心，敲出最稳健的代码。寻找 2026 届实习机会喵~
+                我在做测试，也在用 AI 重新理解软件开发。<br className="hidden md:block" />
+                这里记录我的项目、博客和实验，重点关注软件测试、AI 工具和实际产品实现。
               </p>
               
               <div className="flex flex-wrap gap-6 justify-center">
@@ -272,7 +273,7 @@ export default function App() {
                         <h2 className="text-3xl font-black tracking-tight dark:text-white mb-2">OPERATOR: 小柒</h2>
                         <div className="flex flex-wrap gap-3">
                           <span className="px-3 py-1 bg-ani-pink/10 text-ani-pink text-xs font-bold rounded-lg border border-ani-pink/20">Lv.2026 Intern</span>
-                          <span className="px-3 py-1 bg-ani-blue/10 text-ani-blue text-xs font-bold rounded-lg border border-ani-blue/20">Shanghai, CN</span>
+                          <span className="px-3 py-1 bg-ani-blue/10 text-ani-blue text-xs font-bold rounded-lg border border-ani-blue/20">Guangzhou, CN</span>
                         </div>
                       </div>
                     </div>
@@ -282,7 +283,14 @@ export default function App() {
                     </div>
                     <div className="flex flex-wrap gap-4">
                       <a href="mailto:example@email.com" className="ani-btn-primary">建立通讯枢纽</a>
-                      <a href="#" className="ani-btn-outline">秘密档案集 .PDF</a>
+                      <a 
+                        href="https://github.com/Camellia0422" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="ani-btn-outline flex items-center gap-2"
+                      >
+                        GitHub 传送门
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -290,7 +298,7 @@ export default function App() {
                   <div className="ani-card !bg-ani-pink/5 !border-ani-pink/10">
                     <span className="ani-label mb-4 block">Loadout / 技能组</span>
                     <div className="space-y-4">
-                      {['Playwright', 'Pytest', 'Docker', 'AI Ops', 'Node.js'].map(skill => (
+                      {['Java', 'Python', 'Gemini', 'Docker', 'Playwright'].map(skill => (
                         <div key={skill} className="flex justify-between items-center bg-white dark:bg-zinc-900 p-3 rounded-2xl shadow-sm border border-zinc-100 dark:border-white/5">
                           <span className="font-bold text-sm">{skill}</span>
                           <div className="flex gap-1">
@@ -311,7 +319,7 @@ export default function App() {
         <div className="max-w-xl mx-auto ani-glass rounded-[2rem] p-6 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs font-bold text-zinc-400 uppercase tracking-widest">© 2026 小柒 // Pure Hearts & Solid Code</p>
           <div className="flex gap-6">
-            <a href="#" className="text-ani-pink hover:scale-110 transition-transform"><Ghost size={20} /></a>
+            <a href="https://github.com/Camellia0422" target="_blank" rel="noopener noreferrer" className="text-ani-pink hover:scale-110 transition-transform"><Ghost size={20} /></a>
             <a href="#" className="text-ani-pink hover:scale-110 transition-transform"><Sparkles size={20} /></a>
           </div>
         </div>
